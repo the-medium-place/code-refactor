@@ -14,7 +14,7 @@ header {
     background-color: #2a607c;
     color: #ffffff;
 }
-/*  CHANGED HEADER CLASS TO HTML ELEMENT  */
+
 header h1 {
     display: inline-block;
     font-size: 48px;
@@ -53,7 +53,16 @@ p {
     font-size: 16px;
 }
 
-/*change .footer selector to <footer> selector */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
 footer {
     padding: 30px;
     clear: both;
@@ -105,30 +114,18 @@ footer h2 {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*  REDUNDANT CODE:  */
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* REMOVE REDUNDANT CODE: */
 
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* REMOVE REDUNDANT CODE: */
+
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -139,20 +136,11 @@ h3 {
     overflow: auto;
 }
 
-/* REMOVE REDUNDANT CODE: */
-
-
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-/* DELETE REDUNDANT CODE:*/
-
-.search-engine-optimization h2 {
+.search-engine-optimization h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* REDUNDANT CODE: CHANGE TO ALL H2 TAGS */
-
-
-

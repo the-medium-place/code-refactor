@@ -40,7 +40,7 @@ The Objective of this assignment was to refactor the html and css code of a webs
 
 * `.search-engine-optimization h2` and `.social-media-marketing h2` selectors have identical styles. I combined them into a single block of code at **Line 143**. 
 
-
+* `.search-engine-optimization`, `.online-reputation-management` and `.social-media-marketing`: added `overflow:auto;` so content does not spill out of container with resizing of the page
 
 
 
