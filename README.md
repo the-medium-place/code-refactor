@@ -16,6 +16,10 @@ The Objective of this assignment was to refactor the html and css code of a webs
 
 * **Line 65:** Remove unnecessary `</img>` tag
 
+* **Lines 26, 32, 33, 34, 39, 40, 41 and 46** Change `<div>` tags to `<section>` tags to delineate their primary positioning on the page
+
+* **Lines 48 and 70** Change `<div>` tag to `<aside>` tags to delineate their secondary positioning on the page
+
 ### style.css
 
 * Placed single quotes around `Calibri`
